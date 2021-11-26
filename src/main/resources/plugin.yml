@@ -1,0 +1,17 @@
+name: CheatChecker
+version: '${version}'
+main: com.jim20071128.cheatchecker.Main
+api-version: 1.13
+prefix: CheatChecker
+load: STARTUP
+authors: [ jim20071128 ]
+description: Check Cheat Player in they join the server
+website: mabio.top
+depend:
+  - ProtocolLib
+  - AuthMe
+commands:
+  safecheck:
+    aliases:
+      - safec
+    description: Main Command
